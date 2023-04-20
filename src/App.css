@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+body{
+  margin: 0;
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  padding: 0;
+}
+
+.navbar{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: "Lobster", "Josefin Sans", Helvetica, Arial, sans-serif;
+
+  background-color: blue;
+}
+.navbar .links{
+  text-align: center;
+  margin-right: 50px;
+
+}
+.links a{
+  color: white;
+  text-decoration: none;
+  border-bottom: 3px solid white;
+  padding-bottom: 3px;
+  margin: 10px;
+}
+.user{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+.user p{
+  font-size: 15px;
+  margin-right: 10px;
+  color: white;
+}
+.user img{
+  font-size: 30px;
+  border-bottom: 50%;
+}
+.logout{
+  border-radius: 10px;
+  padding: 10px;
+  outline:none;
+  cursor: pointer;
+}
+input,textarea{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.createpost{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+form{
+  margin-top: 50px;
+  padding: 30px 20px;
+  width: 500px;
+  border-radius: 7px;
+  background-color: blue;
+  backdrop-filter: blur(8px);
+  overflow: hidden;
+}
+input,textarea{
+  padding: 8px 10px;
+  margin: 3px 8px 16px 8px;
+background-color: white;
+border-radius: 5px;
+z-index: 1;
+font-size: 16px;
+border: 0px transparent;
+color: blueviolet;
+}
