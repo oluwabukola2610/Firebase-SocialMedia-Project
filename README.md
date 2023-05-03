@@ -1,3 +1,7 @@
+# My first firebase projects. 
+#practicing how to use authetication ang creating database with react and fire base
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
